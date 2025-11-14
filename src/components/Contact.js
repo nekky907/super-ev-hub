@@ -56,6 +56,16 @@ const Contact = () => {
         type: 'success',
         message: 'ขอบคุณที่ติดต่อเรา! เราจะติดต่อกลับโดยเร็วที่สุด'
       });
+
+      // Track with Google Analytics
+      if (window.gtag) {
+        window.gtag('event', 'form_submit', {
+        event_category: 'Contact',
+        event_label: 'Contact Form Submission',
+        value: 1
+    });
+  console.log('📊 Google Analytics event tracked');
+}
       
       // Reset form
       setFormData({
