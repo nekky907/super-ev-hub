@@ -169,14 +169,14 @@
 .info-text {
   color: #ccc;
   line-height: 1.2;
-  font-size: 1.7rem;
+  font-size: 1.25rem;
 }
 
 .info-text strong {
   display: block;
   color: #fff;
   margin-bottom: 5px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .info-text span {
