@@ -198,7 +198,7 @@ const ContactInfo = ({ handleOpenMap }) => {
     { name: 'Facebook', icon: 'F', url: 'https://www.facebook.com/EVPowerEnergy' },
     { name: 'Line', icon: 'LINE', url: 'https://lin.ee/RmVr8ob' },
     { name: 'Instagram', icon: 'IG', url: 'https://www.instagram.com/evpowerenergy/' },
-    { name: 'YouTube', icon: 'YOUTUBE', url: 'https://www.youtube.com/@evpowerenergyTH' }
+    { name: 'YouTube', icon: 'YOU', url: 'https://www.youtube.com/@evpowerenergyTH' }
   ];
 
   return (
